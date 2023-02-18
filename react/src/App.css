@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: Cera Pro;
+}
+.hero-bg {
+    background: rgb(46, 185, 204);
+    background: linear-gradient(
+        90deg,
+        rgba(46, 185, 204, 1) 18%,
+        rgba(29, 130, 154, 1) 82%
+    );
+}
+.h-screen-90{
+  height: 90vh;
+}
+.h-nav{
+  height: 85px;
+}
+.blue-header{
+  color: #16375B;
+}
+.banner-bg{
+  background-color: #B8D5E0;
+}
+.blue-btn{
+  background-color:#4EBECE;
+}
